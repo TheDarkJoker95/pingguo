@@ -1,0 +1,576 @@
+@import url('base.css');
+
+@font-face {
+  font-family: 'iconfont';  /* project id 532300 */
+  src: url('https://at.alicdn.com/t/font_532300_hcnqarbkuxc1sjor.eot');
+  src: url('https://at.alicdn.com/t/font_532300_hcnqarbkuxc1sjor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_532300_hcnqarbkuxc1sjor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_532300_hcnqarbkuxc1sjor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_532300_hcnqarbkuxc1sjor.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}
+header{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+.neikuan{
+	height: 100%;
+	margin: 0 auto;
+}
+.neikuan p{
+	float: right;
+	font-size: 12px;
+	color: #a1a1a3;
+	line-height: 40px;
+}
+.toubu_kuang{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+	display: block;
+}
+.toubu_kuang .toubu{
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.toubu_kuang .toubu li a{
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	line-height: 44px;
+}
+
+.toubu_kuang1{
+	width: 100%;
+	height: 47px;
+	background: #323232;
+	display: block;
+}
+.toubu_kuang1 .toubu1{
+	margin: 0 auto;
+	height: 100%;
+	padding: 0 16px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.toubu_kuang1 .toubu1 li a{
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	line-height: 47px;
+}
+.w-rem{
+	width: 100%;
+	height: auto;
+}
+.q1{
+	background: #fafafa;
+	margin: 0 auto;
+	overflow: hidden;
+	border-bottom: 12px solid #fff;
+	position: relative;
+}
+.q1 a{
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.q1 a h1{
+	color: #111;
+	text-align: center;
+}
+.q1 a p{
+	color: #111;
+	text-align: center;
+}
+.q1 div{
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.q2{
+	background: #f9f0eb;
+	overflow: hidden;
+	border-bottom: 12px solid #fff;
+	position: relative;
+}
+.q2 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.q2 a h1{
+	color: #111;
+	text-align: center;
+}
+.q2 a p{
+	color: #111;
+	text-align: center;
+}
+.q2 div{
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+}
+.air{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.p1{
+	background: #fafafa;
+	position: relative;
+	border-bottom: 12px solid #fff;
+	float: left;
+	box-sizing: border-box;
+}
+.p1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.p1 a h1{
+	color: #111;
+	text-align: center;
+}
+.p1 a span{
+	display: block;
+	color: #333;
+	text-align: center;
+}
+.p1 div{
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dibu_kuang{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+.dibu_kuang .dibu_top{
+	width: 90%;
+	height: auto;
+	box-sizing: border-box;
+	justify-content: space-between;
+	display: flex;
+}
+.dibu_kuang .dibu_top ul li{
+	font-size: 10px;
+	color: #111;
+	line-height: 21px;
+}
+.dibu_kuang .dibu_top ul li a{
+	font-size: 10px;
+	display: block;
+	color: #9b9b9b;
+	line-height: 21px;
+}
+.dibu_kuang .dibu_top ul li a:hover{
+	text-decoration: underline;
+}
+.dibu_kuang .lingshou{
+	width: 100%;
+	height: 20px;
+	margin-top: 30px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.dibu_kuang .lingshou p{
+	float: left;
+	display: flex;
+	font-size: 10px;
+	color: #888888;
+}
+.dibu_kuang .lingshou p span a{
+	display: block;
+	font-size: 10px;
+	color: #0070c9;
+}
+.dibu_kuang .banquan{
+	width: 100%;
+	height: auto;
+}
+.dibu_kuang .banquan p{
+	width: 100%;
+	font-size: 10px;
+	color: #888888;
+}
+
+.dibu_kuang .banquan p span{
+	display: block;
+	float: left;
+	font-size: 10px;
+	color: #888888;
+}
+.dibu_kuang .banquan p span a{
+	display: block;
+	width: 69px;
+	height: 17px;
+	line-height: 17px;
+	text-align: center;
+	color: #555;
+	font-size: 10px;
+	border-right: 1px solid #d6d6d6;
+}
+.dibu_kuang .banquan p .guo{
+	display: block;
+	float: right;
+}
+.dibu_kuang .banquan .list{
+	margin-left: 16px;
+}
+.dibu_kuang1{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+.dibu_kuang1 ul li a p{
+	width: 100%;
+	height: 38px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.dibu_kuang1 ul li a{
+	display: block;
+}
+.dibu_kuang1 ul li a p{
+	font-size: 10px;
+	color: #333;
+	line-height: 38px;
+}
+.dibu_kuang1 ul li a p span{
+	display: block;
+	float: right;
+}
+.dibu_kuang1 .lingshou{
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+}
+.dibu_kuang1 .lingshou p{
+	float: left;
+	display: flex;
+	font-size: 10px;
+	color: #888888;
+}
+.dibu_kuang1 .lingshou p span a{
+	display: block;
+	font-size: 10px;
+	color: #0070c9;
+}
+.dibu_kuang1 .banquan{
+	width: 100%;
+	height: auto;
+}
+.dibu_kuang1 .banquan p:first-child{
+	width: 100%;
+}
+.dibu_kuang1 .banquan p:nth-child(2){
+	display: block;
+	width: 100%;
+	margin-top: 15px;
+	margin-left: -10px;
+}
+.dibu_kuang1 .banquan p{
+	font-size: 10px;
+	color: #888888;
+}
+
+.dibu_kuang1 .banquan span{
+	display: block;
+	float: left;
+	font-size: 10px;
+	color: #888888;
+}
+.dibu_kuang1 .banquan span a{
+	display: block;
+	width: 69px;
+	height: 17px;
+	line-height: 17px;
+	text-align: center;
+	color: #555;
+	font-size: 10px;
+	border-right: 1px solid #d6d6d6;
+}
+.dibu_kuang1 .banquan .guo{
+	margin: 10px 0;
+	display: block;
+}
+
+@media screen and (min-width: 1024px){
+	.neikuan{
+		width: 976px;
+	}
+	.toubu_kuang{
+		display: block;
+	}
+	.toubu_kuang1{
+		display: none;
+	}
+	.toubu_kuang .toubu{
+		width: 976px;
+	}
+	.q1{
+		height: 592px;
+	}
+	.q1 a h1{
+		font-size: 40px;
+		line-height: 62px;
+		margin-top: 87px;
+	}
+	.q1 a p{
+		font-size: 22px;
+		line-height: 47px;
+	}
+	.q1 div{
+		width: 907px;
+		height: 193px;
+		background: url('../img/iphone_x_medium.jpg') no-repeat center center;
+		background-size: 907px 193px;
+		bottom: 110px;
+	}
+	.q2{
+		width: 100%;
+		height: 580px;
+	}
+	.q2 a h1{
+		font-size: 42px;
+		line-height: 62px;
+		margin-top: 45px;
+	}
+	.q2 a p{
+		font-size: 22px;
+		line-height: 42px;
+	}
+	.q2 a div{
+		width: 561px;
+		height: 395px;
+		background: url('../img/iphone_8_large.jpg') no-repeat center center;
+	}
+	.air{
+		padding:0 12px;
+	}
+	.p1{
+		border-right:5px solid #fff;
+		width: 50%;
+		height: 532px;
+	}
+	.p1 a h1{
+		font-size: 29px;
+		line-height: 45px;
+		margin-top: 51px;
+	}
+	.p1 a p{
+		font-size: 17px;
+		line-height: 33px;
+	}
+	.p1 div{
+		width: 385px;
+		height: 304px;
+		background: url('../img/airpods_large.jpg') no-repeat center center;
+		bottom: 26px;
+	}
+	.p2{
+		border-right:0;
+		border-left: 5px solid #fff;
+		float: right;
+		box-sizing: border-box;
+	}
+	.dibu_kuang1{
+		display: none;
+	}
+	.dibu_kuang{
+		display: block;
+		padding: 0 10%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.neikuan{
+		padding: 0 16px;
+	}
+	.toubu_kuang{
+		display: block;
+	}
+	.toubu_kuang1{
+		display: none;
+	}
+	.toubu_kuang .toubu{
+		padding: 0 16px;
+	}
+	.q1{
+		height: 571px;
+	}
+	.q1 a h1{
+		font-size: 31px;
+		line-height: 50px;
+		margin-top: 101px;
+	}
+	.q1 a p{
+		font-size: 19px;
+		line-height: 38px;
+	} 
+	.q1 div{
+		width: 704px;
+		height: 148px;
+		background: url('../img/iphone_x_medium.jpg') no-repeat center center;
+		background-size: 704px 148px;
+		bottom: 144px;
+	}
+	.q2{
+		width: 100%;
+		height: 569px;
+	}
+	.q2 a h1{
+		font-size: 33px;
+		line-height: 49px;
+		margin-top: 69px;
+	}
+	.q2 a p{
+		font-size: 20px;
+		line-height: 36px;
+	}
+	.q2 a div{
+		width: 549px;
+		height: 388px;
+		background: url('../img/iphone_8_medium.jpg') no-repeat center center;
+	}
+	.air{
+		padding:0 12px;
+	}
+	.p1{
+
+		border-right:5px solid #fff;
+		width: 50%;
+		height: 490px;
+	}
+	.p1 a h1{
+		font-size: 23px;
+		line-height: 36px;
+		margin-top: 41px;
+	}
+	.p1 a p{
+		font-size: 16px;
+		line-height: 29px;
+	}
+	.p1 div{
+		width: 269px;
+		height: 211px;
+		background: url('../img/airpods_medium.jpg') no-repeat center center;
+		bottom: 88px;
+	}
+	.p2{
+		border-right:0;
+		border-left: 5px solid #fff;
+		float: right;
+		box-sizing: border-box;
+	}
+	.dibu_kuang1{
+		display: none;
+	}
+	.dibu_kuang{
+		display: block;
+		padding: 0 5%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.neikuan{
+		padding: 0 16px;
+	}
+	.toubu_kuang{
+		display: none;
+	}
+	.toubu_kuang1{
+		display: block;
+	}
+	.q1{
+		height: 500px;
+	}
+	.q1 a h1{
+		font-size: 23px;
+		line-height: 39px;
+		margin-top: 38px;
+	}
+	.q1 a p{
+		font-size: 16px;
+		line-height: 32px;
+	}
+	.q1 div{
+		width: 167px;
+		height: 333px;
+		background: url('../img/iphone_x_small.jpg') no-repeat center center;
+		background-size: 167px 333px;
+		bottom: 38px;
+	}
+	.q2{
+		width: 100%;
+		height: 500px;
+	}
+	.q2 a h1{
+		font-size: 24px;
+		line-height: 37px;
+		margin-top: 37px;
+	}
+	.q2 a p{
+		font-size: 16px;
+		line-height: 29px;
+	}
+	.q2 a div{
+		width: 267px;
+		height: 357px;
+		background: url('../img/iphone_8_small.jpg') no-repeat center center;
+	}
+	.air{
+		padding: 0;
+	}
+	.p1{
+		border-right:0;
+		width: 100%;
+		height: 490px;
+	}
+	.p1 a h1{
+		font-size: 23px;
+		line-height: 36px;
+		margin-top: 36px;
+	}
+	.p1 a p{
+		font-size: 16px;
+		line-height: 29px;
+	}
+	.p1 div{
+		width: 244px;
+		height: 193px;
+		background: url('../img/airpods_small.jpg') no-repeat center center;
+		bottom: 104px;
+	}
+	.p2{
+		border-left: 0;
+	}
+	.dibu_kuang{
+		display: none;
+	}
+	.dibu_kuang1{
+		display: block;
+	}
+}
